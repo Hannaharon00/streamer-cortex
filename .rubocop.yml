@@ -8,3 +8,8 @@ AllCops:
   NewCops: enable
   TargetRubyVersion: 2.7
 
+Metrics/MethodLength:
+  Max: 15
+
+Naming/PredicateName:
+  Enabled: false
