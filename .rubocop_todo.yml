@@ -2,3 +2,6 @@
 # `rubocop --auto-gen-config`
 # on 2024-07-22 12:18:22 UTC using RuboCop version 1.65.0.
 # The point is for the user to remove these configuration records
+# one by one as the offenses are removed from the code base.
+# Note that changes in the inspected code, or installation of new
+# versions of RuboCop, may require this file to be generated again.
