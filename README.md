@@ -10,6 +10,8 @@
 - **Video Metadata**: Display video thumbnails, titles, descriptions, and view counts.
 - **Search and Pagination**: Filter videos by title and implement basic pagination.
 
+## Technologies Used
+
 ## Installation
 
 Ensure you have the following installed:
