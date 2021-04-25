@@ -22,3 +22,11 @@ Ensure you have the following installed:
 - Ruby (version 3.2.2)
 - Rails (version ~> 7.0.8)
 
+4. **Start the Server**
+
+    ```bash
+    bundle exec rails server
+    ```
+
+    Open your browser and navigate to `http://localhost:3000` to view the app.
+
