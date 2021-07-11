@@ -11,3 +11,9 @@
   position: sticky;
   top: 0;
   padding-top: 20px;
+.card {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  border: 1px solid #ddd;
