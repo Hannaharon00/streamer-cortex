@@ -17,3 +17,8 @@
   flex-direction: column;
   height: 100%;
   border: 1px solid #ddd;
+.card-body {
+  flex: 1;
+  padding: 15px;
+}
+
