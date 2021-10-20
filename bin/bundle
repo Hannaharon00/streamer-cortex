@@ -8,3 +8,6 @@
 # this file is here to facilitate running it.
 #
 
+m = Module.new do
+  module_function
+
