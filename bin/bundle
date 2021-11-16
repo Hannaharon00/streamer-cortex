@@ -12,3 +12,4 @@
 m = Module.new do
   module_function
 
+      bundler_version = Regexp.last_match(1)
