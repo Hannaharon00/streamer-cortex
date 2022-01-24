@@ -28,6 +28,8 @@ Ensure you have the following installed:
     bundle install
     ```
 
+3. **Database Setup**
+
 4. **Start the Server**
 
     ```bash
