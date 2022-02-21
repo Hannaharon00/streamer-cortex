@@ -22,6 +22,11 @@ m = Module.new do
     return unless 'update'.start_with?(ARGV.first || ' ') # must be running `bundle update`
 
       bundler_version = Regexp.last_match(1)
+      update_index = i
+    end
+    bundler_version
+  end
+
     File.expand_path('../Gemfile', __dir__)
   end
 
