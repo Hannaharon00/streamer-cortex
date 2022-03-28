@@ -1,5 +1,8 @@
 # frozen_string_literal: true
 
+class PlaylistsController < ApplicationController
+  before_action :set_playlist, only: :show
+
   def show
     @videos = @playlist.videos
   end
