@@ -12,3 +12,6 @@ class VideosController < ApplicationController
     @videos, @total_pages = fetch_videos_and_page
   end
 
+    [videos, total_pages]
+  end
+
