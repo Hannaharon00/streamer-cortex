@@ -27,6 +27,8 @@ Ensure you have the following installed:
 - Ruby (version 3.2.2)
 - Rails (version ~> 7.0.8)
 
+### Setup
+
 1. **Clone the Repository**
 
     ```bash
