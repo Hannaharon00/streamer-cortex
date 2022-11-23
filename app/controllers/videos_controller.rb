@@ -12,6 +12,10 @@ class VideosController < ApplicationController
     @videos, @total_pages = fetch_videos_and_page
   end
 
+  def fetch_videos_and_page
+    videos = @videos_data['videos']
+    total_items = @videos_data['meta']['total']
+    total_pages = (total_items / ITEMS_PER_PAGE).ceil
     [videos, total_pages]
   end
 
