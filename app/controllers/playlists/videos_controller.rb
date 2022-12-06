@@ -14,3 +14,5 @@ module Playlists
       end
     end
 
+    private
+
