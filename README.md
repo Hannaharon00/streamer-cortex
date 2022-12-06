@@ -54,3 +54,5 @@ Ensure you have the following installed:
 
 ### Add/Remove Videos
 
+### Search and Pagination (Bonus)
+
