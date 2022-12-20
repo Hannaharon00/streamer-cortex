@@ -12,6 +12,8 @@ class VideosController < ApplicationController
     @videos, @total_pages = fetch_videos_and_page
   end
 
+  private
+
   def fetch_videos_and_page
     videos = @videos_data['videos']
     total_items = @videos_data['meta']['total']
