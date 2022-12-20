@@ -11,3 +11,8 @@ class PlaylistsController < ApplicationController
     @playlist = Playlist.new
   end
 
+    else
+      redirect_to videos_path, alert: 'Failed to create playlist'
+    end
+  end
+
