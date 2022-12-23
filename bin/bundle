@@ -39,3 +39,6 @@ m = Module.new do
     File.expand_path(lockfile)
   end
 
+    Regexp.last_match(1)
+  end
+
