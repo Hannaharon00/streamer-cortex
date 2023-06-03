@@ -44,6 +44,11 @@ Ensure you have the following installed:
 
 3. **Database Setup**
 
+    ```bash
+    bundle exec rails db:create
+    bundle exec rails db:migrate
+    ```
+
 4. **Start the Server**
 
     ```bash
