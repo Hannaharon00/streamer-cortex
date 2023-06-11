@@ -8,3 +8,4 @@
 # terminating a worker in development environments.
 #
 worker_timeout 3600 if ENV.fetch('RAILS_ENV', 'development') == 'development'
+
