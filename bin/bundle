@@ -45,6 +45,8 @@ m = Module.new do
     File.expand_path(lockfile)
   end
 
+    return unless File.file?(lockfile)
+
     Regexp.last_match(1)
   end
 
