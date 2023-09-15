@@ -59,6 +59,8 @@ Ensure you have the following installed:
 
 ## Usage
 
+Navigate to the **Index Page** to view a list of videos fetched from the Mock YouTube API. Each video card includes options to add the video to a playlist.
+
 ### Add/Remove Videos
 
 ### Search and Pagination (Bonus)
