@@ -18,6 +18,9 @@ Rails.application.configure do
   # or in config/master.key. This key is used to decrypt credentials (and other encrypted files).
   # config.require_master_key = true
 
+  # Compress CSS using a preprocessor.
+  # config.assets.css_compressor = :sass
+
   # Enable serving of images, stylesheets, and JavaScripts from an asset server.
   # config.asset_host = "http://assets.example.com"
 
