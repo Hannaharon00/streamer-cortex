@@ -63,5 +63,8 @@ Navigate to the **Index Page** to view a list of videos fetched from the Mock Yo
 
 ### Add/Remove Videos
 
+- **Add Videos**: On the **Index Page**, use the "Add to Playlist" dropdown menu on each video card to add the video to a specific playlist.
+- **Remove Videos**: On the **Playlist Show Page**, click the "Remove Video" button on specific video card to remove it from the playlist.
+
 ### Search and Pagination (Bonus)
 
