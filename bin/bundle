@@ -54,3 +54,4 @@ m = Module.new do
     Regexp.last_match(1)
   end
 
+  def load_bundler!
