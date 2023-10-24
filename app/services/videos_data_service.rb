@@ -12,3 +12,10 @@ class VideosDataService
     url = "#{BASE_VIDEO_URL}?page=#{@page}"
     response = HTTParty.get(url)
 
+    if response.success?
+      JSON.parse(response.body)
+    else
+      handle_error(response)
+    end
+  rescue StandardError => e
+    handle_error(e)
