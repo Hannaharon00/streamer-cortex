@@ -1,5 +1,9 @@
 <div class='col-md-4 overflow-hidden'>
   <div class='card overflow-auto mb-4 shadow-sm'>
+      <% if playlists.any? %>
+        <button class='btn btn-primary dropdown-toggle mb-2' type='button' id='dropdownMenuButton-<%= video['id'] %>' data-bs-toggle='dropdown' aria-expanded='false'>
+          Add to playlist
+        </button>
         <ul class='dropdown-menu' aria-labelledby='dropdownMenuButton-<%= video['id'] %>'>
           <% playlists.each do |playlist| %>
             <li><%= button_to playlist.name, playlist_videos_path(playlist, video: video), method: :post, class: 'dropdown-item' %></li>
