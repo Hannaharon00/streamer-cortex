@@ -8,6 +8,9 @@ class VideosDataService
   end
 
   def initialize(page)
+    @page = page
+  end
+
   def fetch_videos_data
     url = "#{BASE_VIDEO_URL}?page=#{@page}"
     response = HTTParty.get(url)
