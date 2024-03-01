@@ -7,3 +7,6 @@ module ApplicationHelper
       'alert-danger'
     else
       'alert-info'
+    end
+  end
+end
