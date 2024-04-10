@@ -3,6 +3,12 @@
 # == Schema Information
 #
 # Table name: videos
+#
+#  id            :integer          not null, primary key
+#  playlist_id   :integer          not null
+#  video_id      :string
+#  title         :string
+#  description   :text
 #  thumbnail_url :string
 #  views         :integer
 #  created_at    :datetime         not null
