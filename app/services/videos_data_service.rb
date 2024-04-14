@@ -22,3 +22,5 @@ class VideosDataService
     end
   rescue StandardError => e
     handle_error(e)
+  end
+
