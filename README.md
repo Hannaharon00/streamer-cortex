@@ -61,6 +61,8 @@ Ensure you have the following installed:
 
 Navigate to the **Index Page** to view a list of videos fetched from the Mock YouTube API. Each video card includes options to add the video to a playlist.
 
+Click on the "Create Playlist" **Sidebar** button to navigate to the Playlist Creation page. Enter a name for the new playlist and click "Create Playlist" to add it.
+
 ### Add/Remove Videos
 
 - **Add Videos**: On the **Index Page**, use the "Add to Playlist" dropdown menu on each video card to add the video to a specific playlist.
