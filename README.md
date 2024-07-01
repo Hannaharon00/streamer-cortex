@@ -72,3 +72,5 @@ Click on the "Create Playlist" **Sidebar** button to navigate to the Playlist Cr
 
 ## API Reference
 
+**Endpoint:** `GET /api/videos`
+
