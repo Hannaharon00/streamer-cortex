@@ -24,3 +24,5 @@ class VideosDataService
     handle_error(e)
   end
 
+  private
+
