@@ -15,3 +15,5 @@
 #  updated_at    :datetime         not null
 #
 class Video < ApplicationRecord
+  belongs_to :playlist
+
