@@ -16,3 +16,5 @@ module Playlists
 
     private
 
+    def set_playlist
+      @playlist = Playlist.find(params[:playlist_id])
