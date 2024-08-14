@@ -70,3 +70,6 @@ m = Module.new do
   end
 
   def load_bundler!
+    activate_bundler
+  end
+
