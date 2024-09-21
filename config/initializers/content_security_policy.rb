@@ -10,3 +10,9 @@
 #   config.content_security_policy do |policy|
 #     policy.default_src :self, :https
 #     policy.font_src    :self, :https, :data
+#   end
+#
+#   # Generate session nonces for permitted importmap and inline scripts
+#   config.content_security_policy_nonce_generator = ->(request) { request.session.id.to_s }
+#   config.content_security_policy_nonce_directives = %w(script-src)
+#
