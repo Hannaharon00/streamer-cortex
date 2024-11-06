@@ -2,3 +2,7 @@
 
 <% if @videos.present? %>
   <div class='row'>
+    <%= render partial: 'video', collection: @videos, locals: { playlist: @playlist } %>
+  </div>
+<% else %>
+  <div class='alert alert-info'>
