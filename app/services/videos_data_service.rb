@@ -26,3 +26,8 @@ class VideosDataService
 
   private
 
+  def handle_error(error)
+    Rails.logger.error("Failed to fetch videos data: #{error.message}")
+    { 'videos' => [], 'meta' => { 'total' => 0 } }
+  end
+end
