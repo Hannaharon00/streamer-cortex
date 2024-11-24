@@ -69,6 +69,9 @@ m = Module.new do
       bundler_requirement_for(lockfile_version)
   end
 
+  def bundler_requirement_for(version)
+    return "#{Gem::Requirement.default}.a" unless version
+
   def load_bundler!
     activate_bundler
   end
