@@ -27,6 +27,11 @@
   padding: 15px;
 }
 
+  height: 150px;
+  max-height: 150px;
+  overflow-y: auto;
+}
+
 .card-img-top {
   width: 100%;
   height: auto;
