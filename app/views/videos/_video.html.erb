@@ -12,3 +12,7 @@
           <% playlists.each do |playlist| %>
             <li><%= button_to playlist.name, playlist_videos_path(playlist, video: video), method: :post, class: 'dropdown-item' %></li>
           <% end %>
+        </ul>
+      <% else %>
+        <%= link_to 'No Playlist available, Create One', new_playlist_path, class: 'btn btn-primary m-2' %>
+      <% end %>
