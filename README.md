@@ -78,3 +78,24 @@ Click on the "Create Playlist" **Sidebar** button to navigate to the Playlist Cr
 
 **Endpoint:** `GET /api/videos`
 
+```json
+{
+  "videos": [
+    {
+      "id": 1,
+      "title": "thanks for 5 million",
+      "video_id": "H1tQhK0n5Qk",
+      "views": 279357,
+      "likes": 66689,
+      "comments": 3144,
+      "description": "#shorts",
+      "thumbnail_url": "https://i.ytimg.com/vi/H1tQhK0n5Qk/default.jpg",
+      "created_at": "2021-11-24T22:23:27.130Z",
+      "updated_at": "2021-11-24T22:23:27.130Z"
+    }
+  ],
+  "meta": {
+    "total": 92,
+    "page": 2
+  }
+}
