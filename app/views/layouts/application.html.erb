@@ -11,6 +11,10 @@
 </head>
 <body>
     <div class='container-fluid'>
+    <header class='row'>
+      <%= render 'layouts/header' %>
+    </header>
+    <% flash.each do |type, message| %>
 
     <div class='row flex-nowrap'>
       <aside class='col-md-3 col-lg-2 p-0 bg-light'>
