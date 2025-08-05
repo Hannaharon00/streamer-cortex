@@ -18,6 +18,10 @@ module Playlists
       if @video.destroy
         redirect_to @playlist, notice: 'Video removed from playlist successfully'
       else
+        redirect_to @playlist, alert: 'Error removing video from playlist'
+      end
+    end
+
     private
 
     def set_playlist
