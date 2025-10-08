@@ -11,3 +11,7 @@ class ApplicationController < ActionController::Base
     @playlists = Playlist.all
   end
 
+  def record_not_found
+    redirect_to root_path, alert: 'Record not found'
+  end
+end
