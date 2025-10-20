@@ -90,3 +90,5 @@ m = Module.new do
     exit 42
   end
 
+m.load_bundler!
+
