@@ -72,6 +72,8 @@ m = Module.new do
   def bundler_requirement_for(version)
     return "#{Gem::Requirement.default}.a" unless version
 
+    bundler_gem_version = Gem::Version.new(version)
+
     bundler_gem_version.approximate_recommendation
   end
 
