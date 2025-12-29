@@ -46,3 +46,6 @@ Rails.application.configure do
   # Raise exceptions for disallowed deprecations.
   config.active_support.disallowed_deprecation = :raise
 
+  # Suppress logger output for asset requests.
+  config.assets.quiet = true
+
