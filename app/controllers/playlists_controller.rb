@@ -21,3 +21,7 @@ class PlaylistsController < ApplicationController
     end
   end
 
+  def playlist_params
+    params.require(:playlist).permit(:name)
+  end
+
