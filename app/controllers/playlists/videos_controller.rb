@@ -35,3 +35,7 @@ module Playlists
     def video_params
       params
         .require(:video)
+        )
+    end
+  end
+end
