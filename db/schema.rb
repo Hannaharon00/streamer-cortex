@@ -19,3 +19,7 @@ ActiveRecord::Schema[7.0].define(version: 20_240_715_200_615) do
     t.datetime 'updated_at', null: false
   end
 
+  create_table 'videos', force: :cascade do |t|
+    t.integer 'playlist_id', null: false
+    t.string 'video_id'
+    t.string 'title'
