@@ -35,6 +35,12 @@ module Playlists
     def video_params
       params
         .require(:video)
+        .permit(
+          :video_id,
+          :title,
+          :description,
+          :thumbnail_url,
+          :views
         )
     end
   end
