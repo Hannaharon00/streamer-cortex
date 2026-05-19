@@ -78,6 +78,8 @@ m = Module.new do
   end
 
   def load_bundler!
+    ENV['BUNDLE_GEMFILE'] ||= gemfile
+
     activate_bundler
   end
 
