@@ -25,3 +25,7 @@ class PlaylistsController < ApplicationController
     params.require(:playlist).permit(:name)
   end
 
+  def set_playlist
+    @playlist = Playlist.find(params[:id])
+  end
+end
