@@ -100,5 +100,13 @@ m = Module.new do
     exit 42
   end
 
+  def activation_error_handling
+    yield
+    nil
+  rescue StandardError, LoadError => e
+    e
+  end
+end
+
 m.load_bundler!
 
