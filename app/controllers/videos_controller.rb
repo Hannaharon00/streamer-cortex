@@ -18,6 +18,7 @@ class VideosController < ApplicationController
     videos = @videos_data['videos']
     total_items = @videos_data['meta']['total']
     total_pages = (total_items / ITEMS_PER_PAGE).ceil
+
     [videos, total_pages]
   end
 
