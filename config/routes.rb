@@ -5,3 +5,5 @@ Rails.application.routes.draw do
     resources :videos, only: %i[create destroy], module: 'playlists'
   end
 
+  resources :videos, only: [:index]
+
