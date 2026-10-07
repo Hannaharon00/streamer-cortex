@@ -23,3 +23,5 @@ ActiveRecord::Schema[7.0].define(version: 20_240_715_200_615) do
     t.integer 'playlist_id', null: false
     t.string 'video_id'
     t.string 'title'
+  end
+
