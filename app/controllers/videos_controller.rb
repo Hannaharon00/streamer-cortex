@@ -22,6 +22,13 @@ class VideosController < ApplicationController
     [videos, total_pages]
   end
 
+  def search_title(title)
+    matched_videos = @videos_data['videos'].select { |video| video['title'].downcase.include?(title.downcase) }
+    matched_videos.concat(Video.all.select do |video|
+                            video.title.downcase.include?(title.downcase)
+                          end).uniq { |entry| entry['id'] != entry['video_id'] }
+  end
+
   def set_videos_data
     @page = params[:page].to_i.positive? ? params[:page].to_i : 1
     @videos_data = VideosDataService.call(@page)
