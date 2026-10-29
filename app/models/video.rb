@@ -17,3 +17,5 @@
 class Video < ApplicationRecord
   belongs_to :playlist
 
+  validates :video_id, uniqueness: { scope: :playlist_id, message: 'already exists in playlist' }
+end
